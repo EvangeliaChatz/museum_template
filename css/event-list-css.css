@@ -2,7 +2,8 @@
 .tab-selector {
     display: flex;
     align-items: center;
-    gap:30px;
+    gap:10px;
+    flex-wrap: wrap;
   }
   
   .tab-button {
@@ -139,3 +140,62 @@ max-width: 400px;
 	box-shadow: 2px 6px 30px #67676769;
   transition: 0.4s;
 }
+
+
+/* 
+SELECTION PILLS */
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-flex;
+}
+
+/* Style the dropdown select */
+#dropdown-select {
+  cursor: pointer;
+  background: rgba(145, 123, 76, 0.3);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Style the dropdown select arrow */
+#dropdown-select::after {
+  content: "\25BC";
+  font-size: 16px;
+  color: #aaa;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+/* Style the dropdown content */
+#dropdown-content {
+  z-index: 1;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+
+/* Style the dropdown panels */
+.dropdown-panel {
+  display: none;
+}
+
+/* Style the active dropdown panel */
+.dropdown-panel.active {
+  display: flex;
+  
+}
+
+
+#option1-content, #option2-content, #option3-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:50px;
+  }
+
+
