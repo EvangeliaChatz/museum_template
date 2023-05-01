@@ -45,6 +45,12 @@
     margin: 0px 10%;
   }
 
+  @media (max-width:800px){
+    .m-10 {
+      margin: 0px 5%;
+    }
+  }
+
 
   .margin-bottom {
     margin-bottom: 5%;
