@@ -90,7 +90,7 @@
 
     /* 1st section hero image*/
        .foto-hero {
-      background-image: url('images/hero-image.png');
+      background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/hero-image.png');
       height: 700px;
       background-size: cover;
     }
@@ -515,7 +515,7 @@ background: #1B1812;
 
 .footer-content {
   justify-content: center;
-  padding: 54px 120px;
+  padding: 54px 54px;
   align-items: center;
 }
 }
