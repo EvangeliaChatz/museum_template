@@ -439,6 +439,12 @@ input[type=email] {
   width:300px;
 }
 
+@media (max-width:500px) {
+  input[type=email] {
+    width: 150px;
+  }
+}
+
 
 
 /* FOOTER */
