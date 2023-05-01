@@ -90,7 +90,7 @@
 
     /* 1st section hero image*/
        .foto-hero {
-      background-image: url('/images/hero-image.png');
+      background-image: url('[https://github.com/EvangeliaChatz/museum_template/blob/main/images/hero-image.png]');
       height: 700px;
       background-size: cover;
     }
@@ -109,7 +109,7 @@
   flex-direction: column;
   gap:12rem;
   /* BAKCGROUND IMAGE */
-  background-image: url('/images/vector.png');
+  background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/Project1/images/vector.png');
  height: auto;
  background-size: cover;
  background-position:center;
@@ -147,19 +147,22 @@ margin-right: 26%;
 margin-left: 9%;
 }
 
-.exhibition-card-right{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0 0 0 140px;
-  gap: 10%;
-  border: 1px solid #917B4C;
-  max-width: 750px;
-  margin-left: 26%;
-  margin-right: 9%;
-  }
 
-@media (max-width:1000px){
+  .exhibition-card-right{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0 0 40px;
+    gap: 50px;
+    border: 1px solid #917B4C;
+    /* max-width: 750px; */
+    margin-left: 26%;
+    margin-right: 9%;
+    justify-content: flex-end;
+    }
+
+
+@media (max-width:1180px){
   .exhibition-card-left{
     flex-wrap: wrap;
     padding: 0;
