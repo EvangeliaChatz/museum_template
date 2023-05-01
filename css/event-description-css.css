@@ -1,0 +1,112 @@
+.progr-el-date {
+    color: #917B4C;
+}
+
+em {
+    color:white;
+    opacity: 0.6;
+}
+
+.programme {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 37px 56px;
+gap: 10px;
+width: 351px;
+background: #282828;
+}
+
+.programme-only, .coeffic {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+}
+
+
+.program-elements{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+}
+
+
+.text-program_coeff{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+}
+
+.photo_programme{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 45px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "a b";
+    gap:70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    grid-area: a;
+    width:70%;
+}
+
+.item2 {
+    grid-area: b;
+    width:70%;
+}
+
+@media (max-width:1240px){
+    .grid-container {
+        display: flex;
+      flex-wrap: wrap;
+    }
+
+    .foto-hero {
+      background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/hero-image.png');
+      height: 1118px;
+      background-size: cover;
+    }
+
+
+  }
+
+.descript-text-event{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 36px;
+}
+
+.news-date_text2 {
+    position: absolute;
+    width:400px;
+    background: #282828;
+    display: inline-flex;
+    bottom: 0;
+    left: 0;
+}
+.absolute-target{
+    position:relative;
+}

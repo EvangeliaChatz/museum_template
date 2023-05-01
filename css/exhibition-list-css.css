@@ -1,0 +1,69 @@
+.exhibition-list-hero {
+    background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/exhbition-list-hero.png');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .exb-page-card {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #917B4C;
+    flex-wrap: wrap;
+    gap: 200px;
+  }
+
+  .exb-page-card img {
+    height: 100%;
+  }
+
+  .exhibit-text-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 28px 14px 70px;
+    gap: 9px;
+    /* text nowrap */
+    white-space: nowrap;
+    /* max-width: 267px; */
+    width: 400px;
+    display:inline-flex;
+    }
+
+    .exb-page-all-cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap:90px;
+      justify-content:center
+    }
+
+
+    @media (max-width:1050px){
+      .exb-page-card {
+      gap:46px;
+      width:330px ;
+      }
+
+      .exhibit-text-card{
+        width: 100%;
+      }
+
+      .exb-page-card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .exb-page-all-cards{
+        justify-content: center;
+      }
+    }
+
+
+/* CARD HOVER */
+    .exb-page-card:hover {
+      transform: scale(1.03);
+    box-shadow: 2px 6px 30px #67676769;
+    transition: 0.4s;
+  }

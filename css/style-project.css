@@ -1,0 +1,525 @@
+
+
+/* BUTTONS---------------------- */
+
+   /* BUTTONS */
+   .primary-button {
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border:solid 0.7px white;
+    /* button's width depend on the content inside it with inline-flex */
+    display: inline-flex;
+    /* no text wrap with white-space: nowrap;*/
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    }
+
+  .primary-button-black {
+    padding: 16px 20px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background: #0B0B0B;
+    /* button's width depend on the content inside it with inline-flex */
+    display: inline-flex;
+    /* no text wrap with white-space: nowrap;*/
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+  }
+
+
+    .primary-button:hover, .primary-button-black:hover, .primary-button2:hover {
+    background: #917B4C;
+    color:white;
+    border: none;
+      /* animation */
+  /* transition: all 0.3s ease; */
+  transition-timing-function: linear;
+    }
+
+
+
+ .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  }
+
+  @media (max-width:800px){
+    .container {
+      flex-wrap: wrap;
+    }
+  }
+
+
+
+/* SECTION-1---------------------- */
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 30px;
+}
+
+.first-header-foto{
+  padding: 60px;
+}
+    /* 1st section hero image*/
+       .foto-hero {
+      background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/hero-image.png');
+      height: 700px;
+      background-size: cover;
+    }
+  
+
+
+
+
+/* SECTION-2---------------------- */
+  /* LATEST EXHIBITIONS */
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap:12rem;
+  /* BAKCGROUND IMAGE */
+  background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/Project1/images/vector.png');
+ height: auto;
+ background-size: cover;
+ background-position:center;
+}
+
+
+.calendar-date {
+  display: flex;
+  /* gap:4%; */
+  gap:10px;
+  justify-content: center;
+}
+
+.exhibition-text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 9px;
+/* text nowrap */
+white-space: nowrap;
+}
+
+
+
+.exhibition-card-left {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0 140px 0 0;
+gap: 10%;
+border: 1px solid #917B4C;
+max-width: 750px;
+margin-right: 26%;
+margin-left: 9%;
+}
+
+.exhibition-card-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 140px;
+  gap: 10%;
+  border: 1px solid #917B4C;
+  max-width: 750px;
+  margin-left: 26%;
+  margin-right: 9%;
+  }
+
+@media (max-width:1000px){
+  .exhibition-card-left{
+    flex-wrap: wrap;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .exhibition-card-right {
+    flex-wrap: wrap;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .exhibition-card-left .exhibition-text{
+    justify-content: center;
+    gap:12px;
+    padding: 22px 0px ;
+  }
+
+  .exhibition-card-right .exhibition-text{
+    justify-content: center;
+    gap:12px;
+    padding: 22px 0px ;
+  }
+
+  .exhibition-card-left img{
+    width: 100%;
+  }
+
+  .exhibition-card-right img {
+    width: 100%;
+  }
+}
+
+
+/* @media (max-width:768px){
+  .exhibition-card-left,  exhibition-card-right{ 
+    flex-shrink: 2;
+}
+
+#section1.margin-bottom {
+  margin-bottom: 55%;
+}
+
+#first-image:first-child {
+  width: 60%;
+} */
+
+/* } */
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+  color: #917B4C;
+}
+
+a:hover{
+  color: white;
+}
+
+/* CARD EVENTS HOVER */
+.event-card:hover{
+  transform: scale(1.03);
+	box-shadow: 2px 6px 30px #67676769;
+  transition: 0.4s;
+}
+
+
+.btn-view-all {
+  display: flex;
+  justify-content: flex-end;
+  gap:4%;
+}
+ 
+
+/* SECTION-3---------------------- */
+  /* ICONS */
+.container-icons {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 67px 200px;
+gap:25%;
+flex-wrap: wrap;
+text-align: center;
+width: 100%;
+background: #282828;
+}
+
+/* SECTION-4---------------------- */
+  /* EVENTS */
+  .right-title {
+    text-align: right;
+
+  }
+
+  .event-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #917B4C;
+  }
+
+  /* .exhbition-images{
+    align-self: self-end;
+  } */
+
+.event-card.exhbition-images {
+  align-self: flex-end;
+  height:260px;
+  width: auto;
+}
+
+.event-text {
+  padding:22px 0px;
+}
+
+.events {
+display: flex;
+padding: 31px 0px 0px;
+gap: 50px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* height:auto; */
+
+}
+
+/* .event-self2 {
+  align-self: flex-end;
+} */
+
+.event_and_button {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+justify-content: center;
+/* height:900px; */
+gap:50px;
+}
+
+.title_and_text {
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+
+/* SECTION-5---------------------- */
+  /* NEWS */
+
+.news-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 28px;
+  gap: 9px;
+  /* text nowrap */
+  white-space: nowrap;
+  /* max-width: 267px; */
+  }
+
+
+
+  .date-square {
+    text-align: center;
+    background-color: #917B4C;
+    display: flex;
+    padding: 22px;
+    max-width: 115px;
+    
+  }
+
+  .news-date_text{
+    display: flex;
+  }
+
+
+  .news-card{
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid #917B4C;
+    flex-grow: 0;
+  }
+
+  .news-cards {
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+  /* NEWSLLTER */
+  .text-newsletter {
+max-width: 350px;
+  }
+
+
+  .newsletter {
+    font-size: 2.6rem;
+   }
+
+
+   .custom-right {
+    font-size: 2.2rem;
+    background-color: #0A0A0A;
+    display: inline-flex;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+   }
+
+   .custom-right:hover {
+    background-color: #917B4C;
+    transition-timing-function: linear;
+   }
+
+  .input-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+  }
+
+  .newsl-text-svg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 31px;
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 54px 82px;
+  justify-content: space-around;
+background: rgba(250, 246, 230, 0.05);
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+@media (max-width:1000px){
+  .newsletter-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 54px 82px;
+    gap: 50px;
+    background: rgba(250, 246, 230, 0.05);
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+input[type=email] {
+  padding: 17px 10px;
+  border: 1px solid #917B4C;
+  background: #282828;
+  color: rgb(139, 139, 139);
+  margin-bottom: 0px;
+  width:300px;
+}
+
+
+
+/* FOOTER */
+
+.text-footer-container {
+display: flex;
+gap: 60px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+.footer-column-elements {
+  display: flex;
+  gap: 9px;
+  width: 240px;
+}
+
+.footer-column {
+  display: flex;
+flex-direction: column;
+gap: 9px;
+}
+
+
+/* make brown only footer ones */
+.footer-column .main-text-16px {
+  color: #917B4C;
+}
+
+
+.footer-social {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.down-footer {
+  display: flex;
+padding: 12px 0px 0px;
+gap: 293px;
+border-top: 0.5px solid #917B4C;
+}
+
+
+.footer-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 60px;
+padding: 54px 158px;
+background: #1B1812;
+}
+
+
+@media (max-width:900px){
+.down-footer {
+  display: flex;
+  padding: 12px 0px 0px;
+  gap: 30px;
+  border-top: 0.5px solid #917B4C;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content {
+  justify-content: center;
+  padding: 54px 120px;
+  align-items: center;
+}
+}
+
+
+
+.footer-content .little-text {
+  opacity: 0.5;
+}
+
+
+
+/* ICONS HOVER */
+.icons-hover a:hover {
+background: rgba(145, 123, 76, 0.3);
+}
+
+.icons-hover:hover .icon-container {
+  background: rgba(145, 123, 76, 0.1);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+
+.logo {
+  padding: 0px 255px 0px 0px;
+}
+
+
