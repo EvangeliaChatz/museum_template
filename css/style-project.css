@@ -153,7 +153,7 @@ margin-left: 9%;
     flex-direction: row;
     align-items: center;
     padding: 2px 0 0 40px;
-    gap: 50px;
+    /* gap: 50px; */
     border: 1px solid #917B4C;
     /* max-width: 750px; */
     margin-left: 26%;
@@ -202,20 +202,19 @@ margin-left: 9%;
 }
 
 
-/* @media (max-width:768px){
-  .exhibition-card-left,  exhibition-card-right{ 
-    flex-shrink: 2;
+/* RESPONSIVE CARDS */
+
+@media (max-width:500px){
+  .exhibition-card-left , .exhibition-card-right {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* white-space: normal; */
+  }
 }
 
-#section1.margin-bottom {
-  margin-bottom: 55%;
-}
 
-#first-image:first-child {
-  width: 60%;
-} */
 
-/* } */
+
 
 a {
   color: white;
