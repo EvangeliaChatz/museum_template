@@ -106,7 +106,6 @@ gap: 36px;
     display: inline-flex;
     left: 0;
     bottom: 0;
-    left: -20%;
 }
 .absolute-target{
     position:relative;
@@ -117,8 +116,23 @@ gap: 36px;
 }
 
 
+
+
+/* PHOTO TARGET FOR MOBILE */
+@media (max-width:500px){
 /* SCALE TOU TARGET */
 .event-target-smaller {
     transform: scale(0.7);
+}
 
+
+.news-date_text2 {
+    position: absolute;
+    width:400px;
+    background: #282828;
+    display: inline-flex;
+    left: 0;
+    bottom: 0;
+    left: -20%;
+}
 }
