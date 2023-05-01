@@ -1,27 +1,53 @@
 // PILLS
-var tabButtons = document.querySelectorAll(".tab-button");
-var tabContents = document.querySelectorAll(".tab-content");
+// var tabButtons = document.querySelectorAll(".tab-button");
+// var tabContents = document.querySelectorAll(".tab-content");
 
-function showTab(tabIndex) {
-  tabButtons.forEach(function(button) {
-    button.classList.remove("active");
-  });
-  tabContents.forEach(function(content) {
-    content.classList.add("hidden");
-  });
+// function showTab(tabIndex) {
+//   tabButtons.forEach(function(button) {
+//     button.classList.remove("active");
+//   });
+//   tabContents.forEach(function(content) {
+//     content.classList.add("hidden");
+//   });
 
-  tabButtons[tabIndex].classList.add("active");
-  tabContents[tabIndex].classList.remove("hidden");
+//   tabButtons[tabIndex].classList.add("active");
+//   tabContents[tabIndex].classList.remove("hidden");
+// }
+
+// showTab(0); // Show the first tab by default
+
+// tabButtons.forEach(function(button, index) {
+//   button.addEventListener("click", function() {
+//     showTab(index);
+//   });
+// });
+
+
+
+
+// SELECTION PILLS-EVENT LIST
+const dropdownSelect = document.getElementById("dropdown-select");
+const dropdownContent = document.getElementById("dropdown-content");
+const dropdownPanels = document.getElementsByClassName("dropdown-panel");
+
+// Hide all the dropdown panels except for the first one
+for (let i = 1; i < dropdownPanels.length; i++) {
+  dropdownPanels[i].style.display = "none";
 }
 
-showTab(0); // Show the first tab by default
+dropdownSelect.addEventListener("change", (event) => {
+  // Get the value of the selected option
+  const selectedOption = event.target.value;
 
-tabButtons.forEach(function(button, index) {
-  button.addEventListener("click", function() {
-    showTab(index);
-  });
+  // Hide all the dropdown panels
+  for (let i = 0; i < dropdownPanels.length; i++) {
+    dropdownPanels[i].style.display = "none";
+  }
+
+  // Show the dropdown panel for the selected option
+  const selectedPanel = document.getElementById(selectedOption + "-content");
+  selectedPanel.style.display = "flex";
 });
-
 
 
 // NAV header
@@ -74,3 +100,7 @@ burgerMenu.addEventListener("click", () => {
   hamburgerList.classList.remove("hide");
   hamburgerList.classList.add("show");
 });
+
+
+
+
