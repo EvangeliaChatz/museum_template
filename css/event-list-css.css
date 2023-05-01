@@ -23,7 +23,8 @@
   .tab-content {
     display: flex;
     flex-wrap: wrap;
-    gap:100px;
+    flex-direction: row;
+    gap:50px;
   }
   
   .hidden {
