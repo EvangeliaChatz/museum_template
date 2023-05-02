@@ -355,6 +355,7 @@ gap:50px;
     flex-direction: column;
     border: 1px solid #917B4C;
     flex-grow: 0;
+    transform: scale(0.8);
   }
 
   .news-cards {
@@ -416,6 +417,7 @@ max-width: 350px;
 background: rgba(250, 246, 230, 0.05);
 align-items: center;
 flex-wrap: wrap;
+gap:50px;
 }
 
 
