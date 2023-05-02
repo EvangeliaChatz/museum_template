@@ -64,7 +64,7 @@
   flex-direction: column;
   gap:12rem;
   /* BAKCGROUND IMAGE */
-  background-image: url('/images/vector.png');
+/*   background-image: url('/images/vector.png'); */
  height: auto;
  background-size: cover;
  background-position:center;
