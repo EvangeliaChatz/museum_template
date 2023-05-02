@@ -35,7 +35,7 @@
 
     .primary-button:hover, .primary-button-black:hover, .primary-button2:hover {
     background: #917B4C;
-    color:white;
+    color:white !important;
     border: none;
       /* animation */
   /* transition: all 0.3s ease; */
