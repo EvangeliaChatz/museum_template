@@ -1,29 +1,3 @@
-// PILLS
-// var tabButtons = document.querySelectorAll(".tab-button");
-// var tabContents = document.querySelectorAll(".tab-content");
-
-// function showTab(tabIndex) {
-//   tabButtons.forEach(function(button) {
-//     button.classList.remove("active");
-//   });
-//   tabContents.forEach(function(content) {
-//     content.classList.add("hidden");
-//   });
-
-//   tabButtons[tabIndex].classList.add("active");
-//   tabContents[tabIndex].classList.remove("hidden");
-// }
-
-// showTab(0); // Show the first tab by default
-
-// tabButtons.forEach(function(button, index) {
-//   button.addEventListener("click", function() {
-//     showTab(index);
-//   });
-// });
-
-
-
 
 // SELECTION PILLS-EVENT LIST
 const dropdownSelect = document.getElementById("dropdown-select");
@@ -64,32 +38,6 @@ if (url == "/index.html") {
 } else if (url == "/contact.html") {
   document.querySelector(".nav-contact").classList.add("active");
 }
-
-
-// NAV FIXED WHEN SCROLL
-// const header = document.querySelector('.site-header');
-// const scrollTrigger = 250; 
-
-// window.addEventListener('scroll', function() {
-//   if (window.scrollY >= scrollTrigger) {
-//     header.classList.add('fixed');
-//   } else {
-//     header.classList.remove('fixed');
-//   }
-// });
-
-
-
-// BURGER MENU
-
-// const hamburger = document.querySelector('.hamburger');
-// const navLinks = document.querySelector('nav ul');
-
-// hamburger.addEventListener('click', () => {
-//   navLinks.classList.toggle('show');
-// });
-
-
 
 
 // BURGER MENU ROUND2
