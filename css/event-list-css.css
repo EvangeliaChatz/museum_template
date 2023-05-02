@@ -113,33 +113,39 @@ max-width: 400px;
 
 /* AUTOOOOO */
   
-/* .card-event-and-butt {
+.card-event-and-butt {
   position: relative;
 }
 
 
-.card-event-list>div:hover{
-  opacity:1;
- }
-
-
- .card-event-list>.other {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  transition: all 0.2s linear;
-}*/
- .other {
-  display: none;
- }
-
-
- .card-event-list:hover{
-	transform: scale(1.03);
-	box-shadow: 2px 6px 30px #67676769;
-  transition: 0.4s;
+.card-event-and-butt:hover{
+    transform: scale(1.06);
+    transition: 0.4s ease;
+    /* background: linear-gradient(180deg, #B3B3B3 0%, rgba(27, 50, 111, 0.3) 100%) !important; */
 }
+
+.card-event-and-butt:hover > div {
+  opacity: 0.3;
+}
+
+
+.card-event-and-butt:hover .other {
+	opacity: 1;
+
+}
+
+.other{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
 
 
 /* 

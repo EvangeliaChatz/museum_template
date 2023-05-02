@@ -90,7 +90,7 @@
 
     /* 1st section hero image*/
        .foto-hero {
-      background-image: url('[https://github.com/EvangeliaChatz/museum_template/blob/main/images/hero-image.png]');
+      background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/hero-image.png');
       height: 700px;
       background-size: cover;
     }

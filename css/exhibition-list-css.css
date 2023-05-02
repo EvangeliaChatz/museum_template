@@ -25,7 +25,7 @@
     padding: 14px 28px 14px 70px;
     gap: 9px;
     /* text nowrap */
-    white-space: nowrap;
+    /* white-space: nowrap; */
     /* max-width: 267px; */
     width: 400px;
     display:inline-flex;
@@ -50,7 +50,7 @@
         width: 100%;
       }
 
-      .exb-page-card img {
+      .exb-page-card > img {
         width: 100%;
         height: auto;
       }
@@ -66,4 +66,9 @@
       transform: scale(1.03);
     box-shadow: 2px 6px 30px #67676769;
     transition: 0.4s;
+  }
+
+
+  p.medium-text-18px {
+    font-size: 1.6rem;
   }
