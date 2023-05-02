@@ -94,7 +94,6 @@
    }
 
 
-
    .little-title {
     font-size: 1.2rem;
    }
@@ -124,6 +123,45 @@
     max-width: 300px;
    }
 
-   .width-card {
+/* BUTTONS---------------------- */
 
-   }
+   /* BUTTONS */
+   .primary-button {
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border:solid 0.7px white;
+    /* button's width depend on the content inside it with inline-flex */
+    display: inline-flex;
+    /* no text wrap with white-space: nowrap;*/
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    }
+
+  .primary-button-black {
+    padding: 16px 20px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background: #0B0B0B;
+    /* button's width depend on the content inside it with inline-flex */
+    display: inline-flex;
+    /* no text wrap with white-space: nowrap;*/
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+  }
+
+
+    .primary-button:hover, .primary-button-black:hover, .primary-button2:hover {
+    background: #917B4C;
+    color:white !important;
+    border: none;
+      /* animation */
+    /* transition: all 0.3s ease; */
+    transition-timing-function: linear;
+    }
+

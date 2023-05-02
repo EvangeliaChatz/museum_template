@@ -37,12 +37,6 @@ label , .terms{
   align-items: center;
 }
 
-
-    /* .disabled-btn {
-        opacity: 0.3;
-    } */
-    
-
     
     
     #my-form input[type=text], #my-form input[type=email] , #my-form input[type=phone], #my-form input[type=date], select, textarea {

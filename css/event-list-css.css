@@ -150,13 +150,12 @@ max-width: 400px;
 
 /* 
 SELECTION PILLS */
-/* Style the dropdown container */
 .dropdown {
   position: relative;
   display: inline-flex;
 }
 
-/* Style the dropdown select */
+
 #dropdown-select {
   cursor: pointer;
   background: rgba(145, 123, 76, 0.3);
@@ -168,7 +167,6 @@ SELECTION PILLS */
     transition: 0.3s ease;
 }
 
-/* Style the dropdown select arrow */
 #dropdown-select::after {
   content: "\25BC";
   font-size: 16px;
@@ -178,19 +176,19 @@ SELECTION PILLS */
   right: 10px;
 }
 
-/* Style the dropdown content */
+
 #dropdown-content {
   z-index: 1;
   margin-top: 30px;
   margin-bottom: 5%;
 }
 
-/* Style the dropdown panels */
+
 .dropdown-panel {
   display: none;
 }
 
-/* Style the active dropdown panel */
+
 .dropdown-panel.active {
   display: flex;
   
