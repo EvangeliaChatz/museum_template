@@ -6,11 +6,13 @@
     background-position: center;
   }
 
-/* #resevation-page.page-container {
-justify-content: center;
-align-items: center;
-} */
 
+  @media (max-width:500px){
+    .reservation-form-hero {
+      height: 250px;
+      WIDTH: 100%;
+    }
+  }
 
 #reservation-form.reserv-form{
     width: 100%;
