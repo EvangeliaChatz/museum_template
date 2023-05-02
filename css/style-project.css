@@ -45,7 +45,7 @@
 
 /* 1st section hero image*/
     .foto-hero {
-  background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/frontend-Project1/images/hero-image.png');
+  background-image: url('/images/hero-image.png');
   height: 700px;
   background-size: cover;
 }
@@ -64,7 +64,7 @@
   flex-direction: column;
   gap:12rem;
   /* BAKCGROUND IMAGE */
-  background-image: url('/Users/evangeliachatzilygeroudi/Downloads/HCI SEMESTERs/2nd semester/Front-end/frontend-diafanies no1--html/ASSIGNEMNT1/Project1/images/vector.png');
+  background-image: url('/images/vector.png');
  height: auto;
  background-size: cover;
  background-position:center;
