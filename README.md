@@ -24,7 +24,7 @@ The project was implemented by HTML, CSS, Javascript.
 The website consists of the following pages: home, events_list, event_description, exhibition_list, exhibition_description, reservation page.
 
 ### Short description
-The website in question has several pages related to a museum. The Home page provides a brief introduction to the museum, along with photographs of exhibits and visitors. It also displays the latest exhibitions and allows users to view all events, as well as the museum's opening hours. Users can also view upcoming events and subscribe to the museum's newsletter.
+A museum's  website is created. The Home page provides a brief introduction to the museum, along with photographs of exhibits and visitors. It also displays the latest exhibitions and allows users to view all events, as well as the museum's opening hours. Users can also view upcoming events and subscribe to the museum's newsletter.
 
 The Events List page displays a list of all the museum's events, organized by month, and provides brief information on each event. Hovering over an event provides more information about it.
 
