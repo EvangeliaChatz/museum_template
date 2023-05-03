@@ -88,8 +88,8 @@
    /* exhibition title */
    .big-text-20px-brown {
     font-size:2rem;
-    font-weight: 100;
     color: var(--color-brown-text);
+    font-weight: 400;
    }
 
    .big-text-20px {
