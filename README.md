@@ -14,7 +14,7 @@ Firstly, the [website](https://museumtemplate.netlify.app/home.html) designed in
 
 
 ## Technologies
-The project was implemented by HTML, CSS, Javascript.
+The project was implemented by HTML, CSS, Javascript.The project is fully responsive and easy for the user to navigate.
 
 ![webb](https://user-images.githubusercontent.com/99615706/235981346-f05f11fe-3718-48b8-b06b-fabbacb66587.svg)
 [Website link](https://museumtemplate.netlify.app/home.html)
@@ -33,6 +33,8 @@ The Event Description page contains detailed information about a specific event,
 The Exhibition List page contains a list of all the museum's exhibitions, along with brief information on each one.
 
 Finally, the Exhibition Description page provides detailed information about a particular exhibition, including the theme, the artists involved, and a photograph.
+<br>
+
 
 [//]: # "PRESENTATION PHOTO---------------------------------------"
 ![museum_mockups(white)](https://user-images.githubusercontent.com/99615706/235976264-040deb40-f082-41f0-92d3-558b36e68242.png)
