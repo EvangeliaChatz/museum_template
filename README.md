@@ -2,7 +2,7 @@
 
 Frontend Project Museum website | HCI Master of Electrical Engineering | University of Patras
 
-<sup>This is a redesign of the website of the Archaeological Museum of Thessaloniki.</sup>
+<sup>redesign of the website of the Archaeological Museum of Thessaloniki.</sup>
 
 
 ## Design Guidlines
